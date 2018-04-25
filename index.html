@@ -160,6 +160,69 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-我眼中的HTTPS" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/04/25/我眼中的HTTPS/">我眼中的HTTPS</a>
+    </h1>
+  
+
+        
+        <a href="/2018/04/25/我眼中的HTTPS/" class="archive-article-date">
+  	<time datetime="2018-04-25T10:32:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-25</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>目录</p>
+<p>[TOC]</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>笔者由于项目中经常用到抓包工具，在抓包的时候Https的请求总是抓取不到，于是就研究了下https。这种网络基础方面的知识不记下来太容易遗忘了，所以写篇文章，总结下学到的以及用到的，文章如果写得有不对的地方，欢迎各位老司机指正。</p>
+<h2 id="什么是HTTPS"><a href="#什么是HTTPS" class="headerlink" title="什么是HTTPS"></a>什么是HTTPS</h2><p>先了解下官方对HTTPS，TLS,对称加密，非对称加密的定义：</p>
+<blockquote>
+<p>HTTPS是一种通过计算机网络进行安全通信的传输协议。HTTPS经由HTTP进行通信，但用TLS来加密数据包，HTTPS开发的主要目的，是提供对网站服务器的身份认证，保护交换数据的隐私与完整性。————维基百科<br>TLS是传输层加密协议，前身是SSL协议，用于在两个通信应用程序之间提供保密性和数据完整性。—————百度百科<br>对称加密即加密和解密使用同一个密钥，虽然对称加密破解难度很大，但由于对称加密需要在网络上传输密钥和密文，一旦被黑客截取很容易就能被破解，因此对称加密并不是一个较好的选择。————百度百科<br>非对称加密 即加密和解密使用不同的密钥，分别称为公钥和私钥。我们可以用公钥对数据进行加密，但必须要用私钥才能解密。在网络上只需要传输公钥，私钥保存在服务端用于解密公钥加密后的密文。————百度百科</p>
+</blockquote>
+<p><strong>总而言之，https就是给http套了个ssl的外壳，它在http跟tcp中间插入了ssl，从而尽量保证通信在安全以及正确的通道下进行。HTTP+加密+认证+完整性保护=HTTPS。</strong><br>
+        
+          <a class="article-more-a" href="/2018/04/25/我眼中的HTTPS/#more">more >></a>
+        
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/04/25/我眼中的HTTPS/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-我来北京一年的点点滴滴" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     

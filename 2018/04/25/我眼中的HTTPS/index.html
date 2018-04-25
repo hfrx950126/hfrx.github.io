@@ -6,17 +6,25 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | 皇甫睿欣的博客</title>
+  <title>我眼中的HTTPS | 皇甫睿欣的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="山东建筑大学13级，就职于思派网络。擅长各项移动端技能，另可参与后台与前端的编写。此为博客一枚。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="皇甫睿欣的博客">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="目录 [TOC] 前言笔者由于项目中经常用到抓包工具，在抓包的时候Https的请求总是抓取不到，于是就研究了下https。这种网络基础方面的知识不记下来太容易遗忘了，所以写篇文章，总结下学到的以及用到的，文章如果写得有不对的地方，欢迎各位老司机指正。 什么是HTTPS先了解下官方对HTTPS，TLS,对称加密，非对称加密的定义：  HTTPS是一种通过计算机网络进行安全通信的传输协议。HTTPS经">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我眼中的HTTPS">
+<meta property="og:url" content="http://yoursite.com/2018/04/25/我眼中的HTTPS/index.html">
 <meta property="og:site_name" content="皇甫睿欣的博客">
-<meta property="og:description" content="山东建筑大学13级，就职于思派网络。擅长各项移动端技能，另可参与后台与前端的编写。此为博客一枚。">
+<meta property="og:description" content="目录 [TOC] 前言笔者由于项目中经常用到抓包工具，在抓包的时候Https的请求总是抓取不到，于是就研究了下https。这种网络基础方面的知识不记下来太容易遗忘了，所以写篇文章，总结下学到的以及用到的，文章如果写得有不对的地方，欢迎各位老司机指正。 什么是HTTPS先了解下官方对HTTPS，TLS,对称加密，非对称加密的定义：  HTTPS是一种通过计算机网络进行安全通信的传输协议。HTTPS经">
+<meta property="og:image" content="https://img-blog.csdn.net/20180416134055969?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:image" content="https://img-blog.csdn.net/20180416134135210?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:image" content="https://img-blog.csdn.net/20180416135956749?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:image" content="https://img-blog.csdn.net/20180416134722505?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:image" content="https://img-blog.csdn.net/20180416135130945?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:image" content="https://img-blog.csdn.net/20180416142941345?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:updated_time" content="2018-04-25T10:42:37.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="皇甫睿欣的博客">
-<meta name="twitter:description" content="山东建筑大学13级，就职于思派网络。擅长各项移动端技能，另可参与后台与前端的编写。此为博客一枚。">
+<meta name="twitter:title" content="我眼中的HTTPS">
+<meta name="twitter:description" content="目录 [TOC] 前言笔者由于项目中经常用到抓包工具，在抓包的时候Https的请求总是抓取不到，于是就研究了下https。这种网络基础方面的知识不记下来太容易遗忘了，所以写篇文章，总结下学到的以及用到的，文章如果写得有不对的地方，欢迎各位老司机指正。 什么是HTTPS先了解下官方对HTTPS，TLS,对称加密，非对称加密的定义：  HTTPS是一种通过计算机网络进行安全通信的传输协议。HTTPS经">
+<meta name="twitter:image" content="https://img-blog.csdn.net/20180416134055969?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
   
     <link rel="alternative" href="/atom.xml" title="皇甫睿欣的博客" type="application/atom+xml">
   
@@ -158,118 +166,195 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-我眼中的HTTPS" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
   
+    <h1 class="article-title" itemprop="name">
+      我眼中的HTTPS
+    </h1>
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2018" class="archive-year">2018</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/04/25/我眼中的HTTPS/" class="archive-article-date">
+
+        
+        <a href="/2018/04/25/我眼中的HTTPS/" class="archive-article-date">
   	<time datetime="2018-04-25T10:32:25.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-04-25</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/04/25/我眼中的HTTPS/">我眼中的HTTPS</a>
-    </h1>
-  
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>目录</p>
+<p>[TOC]</p>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>笔者由于项目中经常用到抓包工具，在抓包的时候Https的请求总是抓取不到，于是就研究了下https。这种网络基础方面的知识不记下来太容易遗忘了，所以写篇文章，总结下学到的以及用到的，文章如果写得有不对的地方，欢迎各位老司机指正。</p>
+<h2 id="什么是HTTPS"><a href="#什么是HTTPS" class="headerlink" title="什么是HTTPS"></a>什么是HTTPS</h2><p>先了解下官方对HTTPS，TLS,对称加密，非对称加密的定义：</p>
+<blockquote>
+<p>HTTPS是一种通过计算机网络进行安全通信的传输协议。HTTPS经由HTTP进行通信，但用TLS来加密数据包，HTTPS开发的主要目的，是提供对网站服务器的身份认证，保护交换数据的隐私与完整性。————维基百科<br>TLS是传输层加密协议，前身是SSL协议，用于在两个通信应用程序之间提供保密性和数据完整性。—————百度百科<br>对称加密即加密和解密使用同一个密钥，虽然对称加密破解难度很大，但由于对称加密需要在网络上传输密钥和密文，一旦被黑客截取很容易就能被破解，因此对称加密并不是一个较好的选择。————百度百科<br>非对称加密 即加密和解密使用不同的密钥，分别称为公钥和私钥。我们可以用公钥对数据进行加密，但必须要用私钥才能解密。在网络上只需要传输公钥，私钥保存在服务端用于解密公钥加密后的密文。————百度百科</p>
+</blockquote>
+<p><strong>总而言之，https就是给http套了个ssl的外壳，它在http跟tcp中间插入了ssl，从而尽量保证通信在安全以及正确的通道下进行。HTTP+加密+认证+完整性保护=HTTPS。</strong><br><a id="more"></a></p>
+<h2 id="https的通信过程"><a href="#https的通信过程" class="headerlink" title="https的通信过程"></a>https的通信过程</h2><p>   在回顾https基础知识的过程中，笔者看过一篇非常有趣的文章，他讲往服务器发送数据以及从服务器接受数据的行为比喻成了有一只信鸽在你与服务器之前传送消息，并且把客户端和服务器以及窃取信息这三者的关系比喻成了恋爱中的双方和第三方情敌的关系，新奇不已。有兴趣的朋友可以访问以下链接：<br>  <a href="https://mp.weixin.qq.com/s/aRs6Ah1cIwAVjXR8hK-OCg" target="_blank" rel="noopener">https://mp.weixin.qq.com/s/aRs6Ah1cIwAVjXR8hK-OCg</a><br>  总结Https 的握手过程，大致分为如下几步</p>
+<blockquote>
+<ol>
+<li>客户端通过发送Client Hello 报文开始SSL通信。报文中包含客户端支持的SSL的指定版本、加密组件列表（所使用的加密算法及密钥长度等）。</li>
+<li>服务器可进行SSL通信，会以ServerHello报文作为应答。和客户端一样，在报文中包含SSL版本以及加密组件。服务器的加密组件内容是从接收到的客户端加密组件内筛选出来的。</li>
+<li>之后服务器发送Certificate报文。报文中包含公开密钥证书。</li>
+<li>最后服务器发送ServerHelloDone报文通知客户端，最初阶段的SSL握手协商部分结束。</li>
+<li>SSL第一次握手结束之后，客户端以Client Key Exchange报文作为回应。报文中包含通信加密中使用的一种被称为Pre-master secret的随机密码串。该报文已用步骤3中的公开密钥进行加密。</li>
+<li>接着客户端继续发送Change Cipher Spec报文。该报文会提示服务器，在此报文之后的通信会采用Pre-master secret密钥加密。</li>
+<li>客户端发送Finish报文。该报文包含连接至今全部报文的整体校验值。这次握手协商是否能够成功，要以服务器是否能够正确解密该报文作为判定标准。</li>
+<li>服务器同样发送Change Cipher Spec报文。</li>
+<li>服务器同样发送Finished报文。</li>
+<li>服务器和客户端的Finished报文交换完毕之后，SSL连接就算建立完成。当然，通信会受到SSL的保护。从此处开始进行应用层协议的通&gt; 信，即发送Http请求。</li>
+<li>应用层协议通信，即发送HTTP响应。</li>
+<li>最后由客户端断开连接。断开连接时，发送close_notify报文，之后再发送TCPFIN报文来关闭与TCP的通信。<br>在以上流程中，应用层发送数据时会附加一种叫做MAC的报文摘要。MAC能够查知报文是否遭到篡改，从而保护报文的完整性。<br>——————图解HTTP</li>
+</ol>
+</blockquote>
+<h2 id="Charlest等抓包工具的使用"><a href="#Charlest等抓包工具的使用" class="headerlink" title="Charlest等抓包工具的使用"></a>Charlest等抓包工具的使用</h2><p>中间人攻击是通过拦截正常的网络通信数据，并进行数据篡改和嗅探，而通信双方毫不知情。<br>Charlest就是使用这种方式来来实现抓包的。<br>市面上的抓包工具操作基大同小异。以Mac下抓包Android 手机Https为例，（抓包http省略第一步）</p>
+<ol>
+<li>首先将证书导入到Android 设备上<br><img src="https://img-blog.csdn.net/20180416134055969?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>2.电脑端Charlest设置HTTPS抓包配置端口<br>菜单栏 Proxy –&gt;  ProxySetting<br><img src="https://img-blog.csdn.net/20180416134135210?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>3.手机端配置代理。一般情况下长按或点击wifi旁边的箭头，跳转到配置界面。<br><img src="https://img-blog.csdn.net/20180416135956749?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"><br>按照以上的操作，结合我们的理论分析，我们有理由相信，我们可以抓到大部分的数据包，但是结果呢？下面分别是小米6跟魅族MX5手机上抓包微博接口的测试。<br><img src="https://img-blog.csdn.net/20180416134722505?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="小米6"><br><img src="https://img-blog.csdn.net/20180416135130945?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="魅族MX5"><br>可以发现我们正确配置之后，无法再小米6上实现抓包，所有的请求都无法正常的响应，并且提示Client closed the  connection before request was mad.Possibly  the SSL  certificate was rejected。<br>而魅族MX5上所有请求开起来是一切正常的。到底什么原因导致了这样事情的发生呢？</li>
+</ol>
+<h2 id="无法抓包的原因及解决办法"><a href="#无法抓包的原因及解决办法" class="headerlink" title="无法抓包的原因及解决办法"></a>无法抓包的原因及解决办法</h2><p>###原因###</p>
+<p>出现上述问题的原因来自于Android 7.0（API24）以上的新功能,有一个名为“Network Security Configuration”的新安全功能。<br><a href="https://developer.android.google.cn/training/articles/security-config.html" target="_blank" rel="noopener">https://developer.android.google.cn/training/articles/security-config.html</a><br>官方文档的意思很明确，我再7.0之后不再支持你用户自己添加的证书啦，想要信任的话，请你改代码吧。<br><img src="https://img-blog.csdn.net/20180416142941345?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L25oZ2Zk/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
+<p>###解决办法1###<br>1.你需要在清单文件中添加一个条目指向你的网络配置文件，类似这样</p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span><br><span class="line"><span class="tag">&lt;<span class="name">manifest</span> <span class="attr">...</span> &gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">application</span> <span class="attr">android:networkSecurityConfig</span>=<span class="string">"@xml/network_security_config"</span></span></span><br><span class="line"><span class="tag">                    <span class="attr">...</span> &gt;</span></span><br><span class="line">        ...</span><br><span class="line">    <span class="tag">&lt;/<span class="name">application</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">manifest</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>假设您要连接到使用自签署 SSL 证书的主机，或者连接到其 SSL 证书是由您信任的非公共 CA（如公司的内部 CA）签发的主机。<br>res/xml/network_security_config.xml：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span><br><span class="line"><span class="tag">&lt;<span class="name">network-security-config</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">domain-config</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">domain</span> <span class="attr">includeSubdomains</span>=<span class="string">"true"</span>&gt;</span>example.com<span class="tag">&lt;/<span class="name">domain</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">trust-anchors</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">certificates</span> <span class="attr">src</span>=<span class="string">"@raw/my_ca"</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">trust-anchors</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">domain-config</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">network-security-config</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>应用可能需要信任系统不信任的附加 CA，出现此情况的原因可能是系统还未包含此 CA，或 CA 不符合添加到 Android 系统中的要求。应用可以通过为一个配置指定多个证书源来实现此目的。</p>
+<p>res/xml/network_security_config.xml：<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version="1.0" encoding="utf-8"?&gt;</span><br><span class="line"><span class="tag">&lt;<span class="name">network-security-config</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">base-config</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">trust-anchors</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">certificates</span> <span class="attr">src</span>=<span class="string">"@raw/extracas"</span>/&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">certificates</span> <span class="attr">src</span>=<span class="string">"system"</span>/&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">trust-anchors</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">base-config</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">network-security-config</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<p>当然还有更多详细的操作，具体就需要通过访问官方文档去详细探究了。</p>
+<p>###解决办法2###<br>2.你可以选择一款低于android 7.0 的手机进行HTTPS的抓包测试。</p>
+<h2 id="采用双向验证的应用"><a href="#采用双向验证的应用" class="headerlink" title="采用双向验证的应用"></a>采用双向验证的应用</h2><p>如果按照如上的设置及修改还是无法抓取到想要抓取的数据包，考虑可能碰上了需要双向验证的app，在通信过程中，服务器会验证app的公钥证书，这时候，就无法采用中间人攻击的方式进行抓包了。</p>
 
-        <div class="article-info info-on-right">
-          
-          
+      
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢您的支持<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/img/alipay.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/img/weixin.jpg">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2018/04/25/我眼中的HTTPS/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/03/19/我来北京一年的点点滴滴/" class="archive-article-date">
-  	<time datetime="2018-03-19T03:49:45.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-19</time>
-</a>
-        </div>
-    	 
+<nav id="article-nav">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/03/19/我来北京一年的点点滴滴/">我来北京一年的点点滴滴</a>
-    </h1>
+  
+    <a href="/2018/03/19/我来北京一年的点点滴滴/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">我来北京一年的点点滴滴</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">旧事</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2018/02/27/LeetCode-刷题总结/" class="archive-article-date">
-  	<time datetime="2018-02-27T06:27:12.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-02-27</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2018/02/27/LeetCode-刷题总结/">LeetCode 刷题总结</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
 
 
           </div>
@@ -292,8 +377,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
